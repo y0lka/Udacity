@@ -8,33 +8,39 @@ The Front End Developer Nanodegree program is composed of five projects.  Projec
 
 
 Web Foundations
+
 Learn the building blocks of the web - HTML and CSS! Learning how to effectively create the structure of a website using semantic HTML. Then style a website with CSS and responsive design.
 
 BUILD A PORTFOLIO SITE
 
 
 JavaScript and the DOM
+
 Use JavaScript to control a webpage! Learn what the Document Object Model (DOM) is. Use JavaScript and the DOM to control page content and interactions.
 
 MEMORY GAME
 
 
 Web Accessibility
+
 Get hands-on experience making accessible web apps. You'll learn when and why users need accessibility. Then you'll dive into the "how" of building out accessible website components.
 
 Object-Oriented JavaScript
+
 Learn how to build professional applications using object-oriented JavaScript techniques. Then you'll learn how JavaScript has improved with the major language improvements made in ES6.
 
 CLASSIC ARCADE GAME CLONE
 
 
 JavaScript Tools & Testing
+
 Professional developers use tools to help them build maintainable applications. Learn how to use Grunt and Gulp to speed up app development. Learn to use testing to help build app features.
 
 FEED READER TESTING
 
 
 Front-End Applications
+
 Most professional websites are built as single-page applications. You'll learn about Angular, Ember, how to fetch data asynchronously, and offline apps with Service Worker.
 
 RESTAURANT REVIEWS
