@@ -1,4 +1,4 @@
-# Udacity !      [alt text](https://eclectic-thoughts.com/wp-content/uploads/2018/04/Udacity_logo-421x500.png)
+# Udacity !      ![Screenshot](.\img\Udacity_logo-421x500.png)
 Udacity Front End Nanodegree Projects
 Front End Developer
 The Front End Developer Nanodegree program is composed of five projects.  Projects range in complexity, and each builds upon the previous. 
