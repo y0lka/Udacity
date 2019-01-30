@@ -1,5 +1,5 @@
 # Udacity !     
-![Udacity Logo](P1 (Build a Portfolio Site)\img\Udacity_logo-421x500.png)
+![Udacity Logo](P1 (\img\Udacity_logo-421x500.png)
 
 Udacity Front End Nanodegree Projects
 Front End Developer
