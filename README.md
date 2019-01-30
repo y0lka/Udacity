@@ -1,5 +1,5 @@
-# Udacity !     
-![Udacity Logo](P1 (https://eclectic-thoughts.com/wp-content/uploads/2018/04/Udacity_logo-421x500.png)
+#    ![Udacity Logo](https://github.com/y0lka/Udacity-Front-End-NanoDegree/blob/master/P1%20(Build%20a%20Portfolio%20Site)/img/Udacity_logo-421x500.png)  
+
 
 Udacity Front End Nanodegree Projects
 Front End Developer
