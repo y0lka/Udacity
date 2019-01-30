@@ -1,5 +1,6 @@
 # Udacity !     
- \img\Udacity_logo-421x500.png
+![Udacity Logo](P1 (Build a Portfolio Site)\img\Udacity_logo-421x500.png)
+
 Udacity Front End Nanodegree Projects
 Front End Developer
 The Front End Developer Nanodegree program is composed of five projects.  Projects range in complexity, and each builds upon the previous. 
