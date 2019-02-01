@@ -2,10 +2,113 @@
 *:before, 
 *:after {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; /*TODO: nicer fonts!!*/
     margin: 0;
     padding: 0;
 }
 
+
+/*GLOBAL MOBILE STYLES*/
+
+/*making images responsive*/
+.responsive-img {
+    height: auto;
+    max-width: 100%;
+}
+
+.responsive-hdr {
+    font-size: 7vw;
+}
+
+.responsive-text {
+    font-size: 5vw;
+}
+
+/*END GLOBAL MOBILE STYLES*/
+
 .header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content-hdr,
+.featured-item {
+    text-align: center;
+}
+
+.featured-work {
+    margin-top: 50px;
+}
+
+.featured-item {
+    margin: 30px 0;
+}
+
+@media screen and (min-width: 480px) {
+    .responsive-hdr {
+        font-size: 6vw;
+    }
     
+    .responsive-text {
+        font-size: 4vw;
+    }
+
+    .featured-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .header {
+        justify-content: space-between;
+        margin: 0 auto 30px;
+        text-align: left;
+    }
+
+/*    .header-logo {        obsolete now but good to know
+        text-align: left;
+    }
+
+    .header-text {
+        text-align: right;
+    }
+    */
+
+    .header, 
+    .featured {
+        display: flex;
+        max-width: 1400px;
+    }
+
+    .featured {
+        margin: 30px auto 0;
+    }
+
+    .featured-item {
+        margin: 20px 20px 20px 0;
+    }
+
+    .featured-item:last-child {
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    .responsive-hdr {
+        font-size: 4vw;
+    }
+    
+    .responsive-text {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .responsive-hdr {
+        font-size: 3vw;
+    }
+    
+    .responsive-text {
+        font-size: 1vw;
+    }
 }
