@@ -63,18 +63,17 @@
         justify-content: space-between;
         margin: 0 auto 30px;
         text-align: left;
-    }
-
-    .header-logo {        
-        padding: 20px 20px;
         
     }
 
-    .header-img {
-        /*TODO: resize photo*/
-        
+    .header-logo {
+        margin: 0 20px;
     }
-/*
+
+/*    .header-logo {        obsolete now but good to know
+        text-align: left;
+    }
+
     .header-text {
         text-align: right;
     }
@@ -85,6 +84,7 @@
         display: flex;
         max-width: 1400px;
     }
+
 
     .featured {
         margin: 30px auto 0;
@@ -100,6 +100,9 @@
 }
 
 @media screen and (min-width: 830px) {
+
+    
+
     .responsive-hdr {
         font-size: 4vw;
     }
@@ -116,5 +119,11 @@
     
     .responsive-text {
         font-size: 1vw;
+    }
+}
+
+@media screen and (min-width: 1420px) {
+    .header-logo {
+        margin: 0;
     }
 }
