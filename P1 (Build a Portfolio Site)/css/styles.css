@@ -65,10 +65,16 @@
         text-align: left;
     }
 
-/*    .header-logo {        obsolete now but good to know
-        text-align: left;
+    .header-logo {        
+        padding: 20px 20px;
+        
     }
 
+    .header-img {
+        /*TODO: resize photo*/
+        
+    }
+/*
     .header-text {
         text-align: right;
     }
