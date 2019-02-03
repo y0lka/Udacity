@@ -1,12 +1,11 @@
-*, 
-*:before, 
+*,
+*:before,
 *:after {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif; /*TODO: nicer fonts!!*/
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
-
 
 /*GLOBAL MOBILE STYLES*/
 
@@ -20,11 +19,18 @@
     font-size: 7vw;
 }
 
+.featured-hdr {
+    font-size: 6vw;
+}
+
 .responsive-text {
     font-size: 5vw;
 }
 
+.content {
 
+    min-height: 100vh;
+}
 
 /*END GLOBAL MOBILE STYLES*/
 
@@ -33,7 +39,29 @@
     margin-bottom: 50px;
 }
 
+.header-text h1,
+p {
+    font-family: 'Comfortaa', cursive;
+}
 
+.hero-img {
+    background-image: url(../img/hero750.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+
+.featured-link {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+.featured-link:hover {
+    pointer-events: none;
+    text-decoration: none;
+    color: grey;
+}
 
 .content-hdr,
 .featured-item {
@@ -50,16 +78,47 @@
     margin: 30px 0;
 }
 
+#footer {
+    position: relative;
+    bottom: 0;
+    height: 2.5rem;
+    /* Footer height */
+    width: 100%;
+
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: left;
+}
+
+.footer-text {
+    padding: 0.5em 1em;
+}
+
+.fa-github-square {
+    color: black;
+}
+
+.fa-github-square:hover {
+    color: currentColor;
+}
+
+.fa-linkedin:hover {
+    color: black;
+}
+
 @media screen and (min-width: 480px) {
     .responsive-hdr {
         font-size: 6vw;
     }
-    
+
+    .featured-hdr {
+        font-size: 5vw;
+    }
+
     .responsive-text {
         font-size: 4vw;
     }
-
-
 
     .featured-img {
         width: 100%;
@@ -67,35 +126,26 @@
 }
 
 @media screen and (min-width: 500px) {
+
     .header {
         justify-content: space-between;
         margin: 0 auto 30px;
-        text-align: right; 
-    }
-
-    .header-logo {
-        margin: 0 20px;
-    }
-
-/*    .header-logo {        obsolete now but good to know
-        text-align: left;
+        text-align: right;
     }
 
     .header-text {
         text-align: right;
     }
-    */
 
-    .header, 
+    .header,
     .featured {
         display: flex;
         max-width: 1400px;
     }
 
 
-
     .featured {
-        margin: 30px auto 0;
+        margin: 30px auto;
     }
 
     .featured-item {
@@ -113,6 +163,17 @@
         margin: 0 auto;
     }
 
+    .hero-img {
+        background-image: url(../img/hero750.jpg);
+        background-size: 80vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        max-width: 1400px;
+        height: 500px;
+        margin: auto;
+    }
+
     .featured-work h2 {
         display: block;
         text-align: left;
@@ -122,12 +183,10 @@
 
 @media screen and (min-width: 830px) {
 
-    
-
     .responsive-hdr {
         font-size: 4vw;
     }
-    
+
     .responsive-text {
         font-size: 2vw;
     }
@@ -137,7 +196,11 @@
     .responsive-hdr {
         font-size: 3vw;
     }
-    
+
+    .featured-hdr {
+        font-size: 2vw;
+    }
+
     .responsive-text {
         font-size: 1vw;
     }
@@ -148,3 +211,8 @@
         margin: 0;
     }
 }
+
+/*MEDIA
+*
+*
+**/
