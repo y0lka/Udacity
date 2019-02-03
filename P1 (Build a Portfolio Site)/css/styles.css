@@ -1,6 +1,9 @@
 *,
 *:before,
 *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -39,17 +42,21 @@
     margin-bottom: 50px;
 }
 
-.header-text h1,
-p {
+.header-text {
     font-family: 'Comfortaa', cursive;
 }
 
+hr { 
+    color: #99004f;
+    background-color: #99004f;
+    -webkit-margin-bottom-collapse: discard;
+}
+
 .hero-img {
-    background-image: url(../img/hero750.jpg);
+    background-image: url(../img/trial1laptop1920.jpg);
     background-size: cover;
     height: 200px;
 }
-
 
 .featured-link {
     text-decoration: none;
@@ -78,7 +85,7 @@ p {
     margin: 30px 0;
 }
 
-#footer {
+.footer {
     position: relative;
     bottom: 0;
     height: 2.5rem;
@@ -88,7 +95,7 @@ p {
     display: flex;
     max-width: 1400px;
     margin: 0 auto;
-    justify-content: left;
+    justify-content: flex-start;
 }
 
 .footer-text {
@@ -141,8 +148,18 @@ p {
     .featured {
         display: flex;
         max-width: 1400px;
+        margin: 10px auto;
     }
 
+    .hero-img {
+        background-image: url(../img/trial1laptop1920.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 1400px;
+        height: 500px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
 
     .featured {
         margin: 30px auto;
@@ -160,22 +177,11 @@ p {
 @media screen and (min-width: 769px) {
     .hero {
         max-width: 1400px;
-        margin: 0 auto;
-    }
-
-    .hero-img {
-        background-image: url(../img/hero750.jpg);
-        background-size: 80vw;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        max-width: 1400px;
+        margin: 30px auto;
         height: 500px;
-        margin: auto;
     }
 
-    .featured-work h2 {
-        display: block;
+    .featured-work .content-hdr {
         text-align: left;
         margin-top: 50px;
     }
