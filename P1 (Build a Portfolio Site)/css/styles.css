@@ -86,6 +86,7 @@ width: 100%;
 .content-hdr,
 .featured-item {
     text-align: center;
+    margin-top: 20px;
 }
 
 .content-hdr a {
@@ -116,7 +117,7 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: auto;
     justify-content: space-between;
 }
 
@@ -187,11 +188,6 @@ width: 100%;
         overflow: hidden;
     }
 
-    .hero-img img {
-        height: auto;
-        width: 100%;
-        }
-
     .featured {
         margin: 30px auto;
     }
@@ -214,7 +210,12 @@ width: 100%;
 
     .featured-work .content-hdr {
         text-align: left;
-        margin-top: 50px;
+        margin-top: 20px;
+    }
+
+    .content-hdr a {
+    border-top: 1px solid #99004f;
+    border-bottom: 1px solid #99004f;
     }
 }
 
@@ -248,6 +249,7 @@ width: 100%;
         margin: 0;
     }
 }
+
 
 /*MEDIA
 *
