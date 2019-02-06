@@ -10,7 +10,10 @@
     padding: 0;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
@@ -34,23 +37,27 @@ img, embed, object, video {
     font-size: 5vw;
 }
 
+/*END GLOBAL MOBILE STYLES*/
+
 .content {
 
     min-height: 100vh;
 }
-
-/*END GLOBAL MOBILE STYLES*/
 
 .header {
     text-align: center;
     margin-bottom: 50px;
 }
 
+.header-title {
+    text-transform: uppercase;
+}
+
 .header-text {
     font-family: 'Comfortaa', cursive;
 }
 
-hr { 
+hr {
     color: #99004f;
     background-color: #99004f;
     -webkit-margin-bottom-collapse: discard;
@@ -64,8 +71,8 @@ hr {
 }
 
 .hero-img img {
-height: auto;
-width: 100%;
+    height: auto;
+    width: 100%;
 }
 
 .featured-link {
@@ -80,7 +87,7 @@ width: 100%;
     color: black;
     height: 48px;
     width: 48px;
-    
+
 }
 
 .content-hdr,
@@ -95,7 +102,7 @@ width: 100%;
 
 .content-hdr a:hover {
     color: #99004f;
-    text-decoration-line: blink;
+    text-decoration-line: none;
 }
 
 .featured-work {
@@ -107,6 +114,33 @@ width: 100%;
 .featured-item {
     margin: 30px 0;
 }
+
+.featured-img {
+    border-radius: 10px;
+}
+
+.featured-img {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+/*set opacity to the three images*/
+
+.featured-img {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    transition: ease-in;
+}
+
+.featured-img:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    transition: ease-in;
+}
+
+/*set opacity to the three images on hover*/
+
+/*FOOTER*/
 
 .footer-container {
     position: relative;
@@ -121,13 +155,12 @@ width: 100%;
     justify-content: space-between;
 }
 
-
 .logo-disclaimer a {
     color: #99004f
 }
 
 .logo-disclaimer a:hover {
-    color:gray;
+    color: gray;
     text-decoration: blink;
 }
 
@@ -142,6 +175,10 @@ width: 100%;
 .fa-linkedin:hover {
     color: black;
 }
+
+/*FOOTER*/
+
+/*RESPONSIVE BREAKS */
 
 @media screen and (min-width: 480px) {
     .responsive-hdr {
@@ -177,7 +214,7 @@ width: 100%;
     .featured {
         display: flex;
         max-width: 1400px;
-        margin: 10px auto;
+        margin: 30px auto;
     }
 
     .hero-img {
@@ -186,10 +223,6 @@ width: 100%;
         max-width: 1400px;
         margin: 0 auto;
         overflow: hidden;
-    }
-
-    .featured {
-        margin: 30px auto;
     }
 
     .featured-item {
@@ -214,8 +247,8 @@ width: 100%;
     }
 
     .content-hdr a {
-    border-top: 1px solid #99004f;
-    border-bottom: 1px solid #99004f;
+        border-top: 1px solid #99004f;
+        border-bottom: 1px solid #99004f;
     }
 }
 
@@ -249,7 +282,6 @@ width: 100%;
         margin: 0;
     }
 }
-
 
 /*MEDIA
 *
