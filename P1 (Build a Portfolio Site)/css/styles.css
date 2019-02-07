@@ -37,11 +37,18 @@ video {
     font-size: 5vw;
 }
 
+.pixabay-logo {
+    width: 5vw;
+}
+
 /*END GLOBAL MOBILE STYLES*/
 
 .content {
     min-height: 100vh;
+    width: fit-content;
+    margin: auto;
 }
+
 
 .header {
     text-align: center;
@@ -159,6 +166,8 @@ hr {
 
 /*RESPONSIVE BREAKS */
 
+
+
 @media screen and (min-width: 480px) {
     .responsive-hdr {
         font-size: 6vw;
@@ -170,6 +179,10 @@ hr {
 
     .responsive-text {
         font-size: 4vw;
+    }
+
+    .pixabay-logo {
+        width: vw;
     }
 }
 
@@ -258,6 +271,10 @@ hr {
 
     .responsive-text {
         font-size: 1vw;
+    }
+
+    .pixabay-logo {
+        width: 2vw;
     }
 }
 
