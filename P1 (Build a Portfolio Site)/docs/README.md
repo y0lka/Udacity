@@ -7,7 +7,7 @@ This site was built using the [Bootstrap](https://getbootstrap.com/) framework a
 Images were provided by [Pixabay](https://pixabay.com/).
 
 ## Quickstart
-    * Clone the repository, open the project folder with a code editor and there you go.
+Clone the repository, open the project folder with a code editor and there you go.
 
 ### Todos
 
