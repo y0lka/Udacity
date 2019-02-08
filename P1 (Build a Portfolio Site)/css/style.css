@@ -1,0 +1,154 @@
+/*FONTS*/
+h1 {
+  font-family: 'Comfortaa', cursive;
+}
+
+h2,
+h4,
+p,
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 a{
+  color: #7d97ad
+}
+
+h2 a:hover {
+  color: #880e4f;
+  text-decoration: blink;
+}
+
+/*FONTS*/
+
+/*footer*/
+main {
+  position: relative;
+  min-height: 85vh;
+}
+
+
+.flex-row {
+  bottom: 0;
+  margin: 0 auto;
+  border-top: 1px solid #880e4f;
+}
+
+.pl3 {
+  padding: 2px;
+}
+
+/*footer*/
+
+.hero {
+  border-top: 1px solid #880e4f;
+}
+
+.thumbnail {
+  margin-bottom: 0;
+}
+
+@media (max-width: 575.98px) {
+
+  h1 {
+    font-weight: 100;
+    font-size: 7vw;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-size: 6vw;
+    font-weight: 400;
+    text-align: center;
+  }
+
+
+  h4 {
+    margin-top: 0;
+    font-size: 5vw;
+    padding: 5px;
+  }
+
+  p {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 576px) {
+
+  h1 {
+    font-size: 4vw;
+    text-align: right;
+  }
+
+  h2 {
+    font-size: 3vw;
+  }
+
+
+  p {
+    font-size: 2vw;
+    text-align: right;
+  }
+}
+
+@media (min-width: 1200px) {
+/*footer*/
+  main {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .flex-row {
+    bottom: 0;
+    margin: 0 auto;
+    border-top: 1px solid #880e4f;
+  }
+/*footer*/
+
+  .hero {
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  h1 {
+    font-size: 2.5vw;
+    text-align: right;
+  }
+
+  h2 {
+    font-size: 2vw;
+  }
+
+  p {
+    font-size: 1vw;
+    text-align: right;
+    padding: 5px;
+  }
+
+  /*set opacity to the three images and show text on hover*/
+  .featured-img {
+    opacity: 1;
+    transition: ease-in;
+  }
+
+  .featured-img:hover {
+    opacity: 0.3;
+    transition: ease-in;
+  }
+
+  h4 {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    font-size: 1.5vw;
+    opacity: 0;
+  }
+
+  .featured-img:hover+h4 {
+    opacity: 1;
+  }
+/*set opacity to the three images on hover*/
+}
+
