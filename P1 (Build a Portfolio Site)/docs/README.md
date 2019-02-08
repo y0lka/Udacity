@@ -17,7 +17,7 @@ Images were provided by [Pixabay](https://pixabay.com/).
  - Make off canvas navigation menu when mobile
 
 
-###License
+### License
 ----
 
 MIT style (check the LICENSE file)
