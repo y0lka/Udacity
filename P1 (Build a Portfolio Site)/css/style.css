@@ -1,16 +1,13 @@
 /*FONTS*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 h1 {
   font-family: 'Comfortaa', cursive;
 }
 
-h2,
-h4,
-p,
-a {
-  font-family: 'Open Sans', sans-serif;
-}
-
-h2 a{
+h2 a {
   color: #7d97ad
 }
 
@@ -18,7 +15,6 @@ h2 a:hover {
   color: #880e4f;
   text-decoration: blink;
 }
-
 /*FONTS*/
 
 /*footer*/
@@ -27,8 +23,7 @@ main {
   min-height: 85vh;
 }
 
-
-.flex-row {
+.container>footer {
   bottom: 0;
   margin: 0 auto;
   border-top: 1px solid #880e4f;
@@ -38,7 +33,6 @@ main {
   margin-top: 3px;
   padding-left: 2px;
 }
-
 /*footer*/
 
 .hero {
@@ -59,11 +53,10 @@ main {
 }
 
 @media (max-width: 575.98px) {
-
   h1 {
+    margin-bottom: 5px;
     font-weight: 100;
     font-size: 7vw;
-    margin-bottom: 5px;
   }
 
   h2 {
@@ -72,11 +65,10 @@ main {
     text-align: center;
   }
 
-
   h4 {
     margin-top: 0;
-    font-size: 5vw;
     padding: 5px;
+    font-size: 5vw;
   }
 
   p {
@@ -85,7 +77,6 @@ main {
 }
 
 @media (min-width: 576px) {
-
   h1 {
     font-size: 4vw;
     text-align: right;
@@ -95,7 +86,6 @@ main {
     font-size: 3vw;
   }
 
-
   p {
     font-size: 2vw;
     text-align: right;
@@ -103,18 +93,18 @@ main {
 }
 
 @media (min-width: 1200px) {
-/*footer*/
+  /*footer*/
   main {
     position: relative;
     min-height: 100vh;
   }
 
-  .flex-row {
+  .container>footer {
     bottom: 0;
     margin: 0 auto;
     border-top: 1px solid #880e4f;
   }
-/*footer*/
+  /*footer*/
 
   .hero {
     width: 100%;
@@ -131,9 +121,9 @@ main {
   }
 
   p {
+    padding: 5px;
     font-size: 1vw;
     text-align: right;
-    padding: 5px;
   }
 
   /*set opacity to the three images and show text on hover*/
@@ -158,6 +148,5 @@ main {
   .featured-img:hover+h4 {
     opacity: 1;
   }
-/*set opacity to the three images on hover*/
+  /*set opacity to the three images on hover*/
 }
-
