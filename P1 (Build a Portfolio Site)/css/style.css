@@ -35,7 +35,8 @@ main {
 }
 
 .pl3 {
-  padding: 2px;
+  margin-top: 3px;
+  padding-left: 2px;
 }
 
 /*footer*/
@@ -129,12 +130,11 @@ main {
   /*set opacity to the three images and show text on hover*/
   .featured-img {
     opacity: 1;
-    transition: ease-in;
+    transition: all ease-in-out 500ms;
   }
 
   .featured-img:hover {
     opacity: 0.3;
-    transition: ease-in;
   }
 
   h4 {
