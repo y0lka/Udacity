@@ -43,10 +43,19 @@ main {
 
 .hero {
   border-top: 1px solid #880e4f;
+  padding-top: 10px;
 }
 
 .thumbnail {
   margin-bottom: 0;
+}
+
+.fa-github-square {
+  color: black;
+}
+
+.fa-github-square:hover {
+  color: unset;
 }
 
 @media (max-width: 575.98px) {
