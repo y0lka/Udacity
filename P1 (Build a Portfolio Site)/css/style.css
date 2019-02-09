@@ -36,6 +36,7 @@ main {
 /*footer*/
 
 .hero {
+  width: 100%;
   border-top: 1px solid #880e4f;
   padding-top: 10px;
 }
@@ -60,6 +61,7 @@ main {
   }
 
   h2 {
+    margin-top: 10px;
     font-size: 6vw;
     font-weight: 400;
     text-align: center;
@@ -83,6 +85,7 @@ main {
   }
 
   h2 {
+    margin-top: 10px;
     font-size: 3vw;
   }
 
