@@ -6,8 +6,8 @@ This project was created part of Udacity's front end nanodegree program.
 This site was built using the [Bootstrap](https://getbootstrap.com/) framework and [FontAwesome](https://fontawesome.com/) for the icons.
 Images were provided by [Pixabay](https://pixabay.com/).
 
-##Quickstart
-    *Clone the repository, open the project folder with a code editor and there you go.
+## Quickstart
+Clone the repository, open the project folder with a code editor and there you go.
 
 ### Todos
 
@@ -17,7 +17,7 @@ Images were provided by [Pixabay](https://pixabay.com/).
  - Make off canvas navigation menu when mobile
 
 
-###License
+### License
 ----
 
 MIT style (check the LICENSE file)

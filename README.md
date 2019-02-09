@@ -1,4 +1,4 @@
-#    ![Udacity Logo](https://github.com/y0lka/Udacity-Front-End-NanoDegree/blob/master/P1%20(Build%20a%20Portfolio%20Site)/img/Udacity_logo-421x500.png)  
+#    ![Udacity Logo](https://github.com/y0lka/Udacity-Front-End-NanoDegree/blob/master/P1%20(Build%20a%20Portfolio%20Site)/img/logo/Udacity_logo-421x500.png)
 
 
 # Udacity Front End Nanodegree Projects
