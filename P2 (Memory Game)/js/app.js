@@ -9,27 +9,36 @@ const cardArr = ["fa fa-diamond", "fa fa-diamond", "fa fa-paper-plane-o", "fa fa
 ];
 
 //shuffle the cards 
-cardArr.sort(function() { return 0.5 - Math.random() });
+cardArr.sort(function () {
+    return 0.5 - Math.random()
+});
 
 const cardContainer = document.getElementsByClassName('deck')[0];
 
 let flippedCards = [];
+
+
 //create cards
 for (let i = 0; i < cardArr.length; i++) {
-    const card = document.createElement('li');
+    let card = document.createElement('li');
+    card.className = `card`;
+    card.innerHTML = `<i class="${cardArr[i]}"></i>`;
     cardContainer.appendChild(card);
-    card.className = `card ${cardArr[i]}`;
-    
 
+    //click event on the cards
+    card.addEventListener("click", flipCard);
 
-//click event on the cards
-card.addEventListener("click", flipCard);
-function flipCard(click){
-    click.target.classList.add('open', 'show');
-    flippedCards.push(this);
+    function flipCard(click) {
+        click.target.classList.add('open', 'show');
+        flippedCards.push(card);
+    };
 };
 
-}
+let restartBtn = document.getElementsByClassName('restart')[0];
+restartBtn.addEventListener('click', function () {
+    console.log('The document was clicked');
+});
+
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
