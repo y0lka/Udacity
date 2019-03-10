@@ -7,6 +7,7 @@
 * [Game description](#description)
 * [Setup](#setup)
 * [Gameplay](#gameplay)
+* [Credit](#credit)
 
 
 ## Instructions
@@ -43,5 +44,9 @@ The player then turns over a second card, trying to find the corresponding card 
 If the cards match, both cards stay flipped over.
 If the cards do not match, both cards are flipped face down.
 The game ends once all cards have been correctly matched.
+
+## Credit
+
+Shuffle javaScript function was used from http://stackoverflow.com/a/2450976
 
 
