@@ -4,6 +4,10 @@
 
 * [Instructions](#instructions)
 * [Contributing](#contributing)
+* [Game description](#description)
+* [Setup](#setup)
+* [Gameplay](#gameplay)
+
 
 ## Instructions
 
@@ -20,8 +24,24 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 
-##Tools
+## Description
+
+Memory Game is a browser-based card-matching game to exercise your memory, built with HTML, CSS and Vanilla JScript.
+
+## Setup
+
+The game board consists of a grid composed of 16 cards (8 pairs), each with a symbol on one side. The cards are shuffled on the grid with the face down. 
+Push the reset button to restart the game (shuffle the cards and turn them face down again).
 
 
-Font Awesome for fonts
+## Gameplay
+
+Rules: turn over two hidden cards at a time to locate the ones that match!
+
+The player flips one card over to reveal its underlying symbol.
+The player then turns over a second card, trying to find the corresponding card with the same symbol.
+If the cards match, both cards stay flipped over.
+If the cards do not match, both cards are flipped face down.
+The game ends once all cards have been correctly matched.
+
 
