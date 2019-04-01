@@ -62,7 +62,8 @@ class Enemy {
         }
 
         if (areIntersecting(this, player)) {
-            console.log('bibi');
+            player.setPosition(2 * grid.x, 5 * grid.y);
+            countLives();
         }
     }
     // Draw the enemy on the screen, required method for game
@@ -77,12 +78,14 @@ class Enemy {
 // Now write your own player class
 class Player {
     constructor(x, y) {
-
-        this.x = x;
-        this.y = y - grid.offset;
+        this.setPosition(x, y),
         this.sprite = 'images/char-horn-girl.png'
     }
 
+    setPosition(x, y) {
+        this.x = x;
+        this.y = y - grid.offset;
+    }
 
 
     update(dt) {
@@ -98,13 +101,11 @@ class Player {
             case 'up':
                 this.y = this.y - grid.y;
                 if (!grid.isWithinBounds(this)) {
-                    //this.y = this.y + grid.y;
-                    this.x = 2 * grid.x,
-                        this.y = 5 * grid.y;
+                    this.y = this.y + grid.y;
                     countVictory();
+                    this.setPosition(2 * grid.x, 5 * grid.y);
                 }
                 break;
-
 
             case 'down':
                 this.y = this.y + grid.y;
@@ -146,7 +147,6 @@ function countVictory() {
             document.getElementById('button').addEventListener('click', function closeModal() {
                 document.querySelector('#modalContainer').style.display = 'none';
                 reset();
-                scoreBoard.innerHTML = `${victory}`;
                 
             });
             
@@ -155,34 +155,35 @@ function countVictory() {
     }
 }
 
-function reset() {
-    victory = 0;
-    live = 3;
-    player.x = 2 * grid.x,
-    player.y = 5 * grid.y;
-}
-
-
-/*document.onkeydown = function (e) {
-        e.preventDefault();		
-} */
 
 
 function countLives() {
     const livesBoard = document.querySelector('#lives');
-    livesBoard.innerHTML = `${live}`;
-
-    if (live === 0) {
+    
+    if (live > 1) {
+        live--;
+        livesBoard.innerHTML = `${live}`;
+    } else {
         setTimeout(function () {
             alert("YOU LOSE!");
-            live = 0;
-            livesBoard.innerHTML = `${live}`;
+            reset();
+            
+            
         }, 100);
-    } else {
-        live--;
-        continue;
     }
+    
+}
 
+
+function reset() {
+    const scoreBoard = document.querySelector('#score');
+    const livesBoard = document.querySelector('#lives');
+    
+    victory = 0;
+    live = 3;
+    scoreBoard.innerHTML = `${victory}`;
+    livesBoard.innerHTML = `${live}`;
+    player.setPosition(2 * grid.x, 5 * grid.y);
 }
 
 
@@ -213,40 +214,32 @@ document.addEventListener('keyup', function (e) {
     player.handleInput(allowedKeys[e.keyCode]);
 });
 
-function areIntersecting(o1, o2) {
-    var o1coordonates = [{
-            x: o1.x,
-            y: o1.y
-        },
-        {
-            x: o1.x,
-            y: o1.y + grid.y
-        },
-        {
-            x: o1.x + grid.x,
-            y: o1.y
-        },
-        {
-            x: o1.x + grid.x,
-            y: o1.y + grid.y
-        }
-    ]
+/*function areIntersecting(o1, o2) {
+    
 
-    var o2coordonates = {
+
+}*/
+
+
+function areIntersecting(o1, o2) {
+    const o1coordonates = {
+        x0: o1.x,
+        x1: o1.x + grid.x,
+        y0: o1.y,
+        y1: o1.y + grid.y
+    }
+
+    const o2coordonates = {
         x0: o2.x,
         x1: o2.x + grid.x,
         y0: o2.y,
         y1: o2.y + grid.y
     }
 
-    for (let i = 0; i < o1coordonates.length; i++) {
-        if (o2coordonates.x0 <= o1coordonates[i].x &&
-            o2coordonates.x1 >= o1coordonates[i].x &&
-            o2coordonates.y0 <= o1coordonates[i].y &&
-            o2coordonates.y1 >= o1coordonates[i].y) {
-            return true;
-        }
-    }
-
-    return false;
+    return o1coordonates.x0 < o2coordonates.x1 &&
+        o1coordonates.x1 > o2coordonates.x0 &&
+        o1coordonates.y0 < o2coordonates.y1 &&
+        o1coordonates.y1 > o2coordonates.y0;
 }
+
+
