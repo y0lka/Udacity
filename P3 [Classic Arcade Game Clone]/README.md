@@ -9,7 +9,7 @@
 
 In order to be able to play this game you have to open index.html in a browser.
 (Optionally you can save the game folder locally to your computer and then open 
-the index.html file in a vrowser.)
+the index.html file in a browser.)
 
 
 
