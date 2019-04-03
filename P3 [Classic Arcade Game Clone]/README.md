@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [Run](#run game)
-- [Play](#play game)
+- [Run](#run)
+- [Play](#play)
 
 ## Run Game
 
