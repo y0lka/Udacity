@@ -99,6 +99,7 @@ $(function () {
         beforeEach(function(done){
             loadFeed(0, function(){
                 firstFeed = $('.feed').html();
+                expect(firstFeed).toBeDefined();
                 done();
             });
         });
