@@ -14,6 +14,7 @@ This project demonstrates test-driven javascript using [Jasmine](https://jasmine
 
 ## Running the Application
  In order to be able to run the application and view the test results, you have to save the folder locally to your computer and then open the index.html file in a browser.
+ 
   (Jasmine should automatically execute the test suites and the results should be shown at the bottom of the page; all the tests should pass.)
 
 ## Contributing
@@ -65,5 +66,6 @@ Additionally, note that:
  
  ### Dependencies
  [JQuery](https://jquery.com/)
+ 
  [Jasmine](https://jasmine.github.io/index.html)
 
