@@ -63,7 +63,7 @@ Additionally, note that:
  * Error handling should be implemented for undefined variables and out-of-bound array access
  * When complete, all of your tests should pass
  
- ###Dependencies
+ ### Dependencies
  [JQuery](https://jquery.com/)
  [Jasmine](https://jasmine.github.io/index.html)
 
