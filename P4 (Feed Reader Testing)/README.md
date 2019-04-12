@@ -9,7 +9,7 @@
 
 
 ## Project Overview
-This project demonstrates browser based testing using [Jasmine](https://jasmine.github.io/index.html) on a web-based RSS feeds reader application.
+This project demonstrates test-driven javascript using [Jasmine](https://jasmine.github.io/index.html) on a web-based RSS feeds reader application.
 
 ## Running the Application
  In order to be able to run the application and view the test results, you have to save the folder locally to your computer and then open the index.html file in a browser.
