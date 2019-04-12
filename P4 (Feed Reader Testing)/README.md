@@ -6,6 +6,7 @@
 - [Running the Application](#running-the-application)
 - [Contributing](#contributing)
 - [Development Strategy](#development-strategy)
+- [Dependencies](#dependencies)
 
 
 ## Project Overview
@@ -61,4 +62,8 @@ Additionally, note that:
  * Callbacks should be used to ensure that feeds are loaded before they are tested
  * Error handling should be implemented for undefined variables and out-of-bound array access
  * When complete, all of your tests should pass
+ 
+ ###Dependencies
+ [JQuery](https://jquery.com/)
+ [Jasmine](https://jasmine.github.io/index.html)
 
