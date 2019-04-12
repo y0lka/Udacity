@@ -1,9 +1,9 @@
 ## Table of Contents
 
-- [Project Overview](#project)
-- [Running the Application](#running)
+- [Project Overview](#Project Overview)
+- [Running the Application](#Running the Application)
 - [Contributing](#contributing)
-- [Development Strategy](#development)
+- [Development Strategy](#Development Strategy)
 
 
 # Project Overview
