@@ -1,32 +1,26 @@
-# Project Overview
+# Udacity Feed reader app testing with Jasmine
 
-In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
+## Table of Contents
 
-
-## Why this Project?
-
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development." This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
-
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
+- [Project Overview](#project-overview)
+- [Running the Application](#running-the-application)
+- [Contributing](#contributing)
+- [Development Strategy](#development-strategy)
 
 
-## What will I learn?
+## Project Overview
+This project demonstrates test-driven javascript using [Jasmine](https://jasmine.github.io/index.html) on a web-based RSS feeds reader application.
 
-You will learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
+## Running the Application
+ In order to be able to run the application and view the test results, you have to save the folder locally to your computer and then open the index.html file in a browser.
 
+## Contributing
 
-## How will this help my career?
+In order to access/alter/develop the test suite, navigate to jasmine/spec/feedreader.js and open with the text editor of your choice.
 
-Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
+## Development Strategy
+(as given by Udacity)
 
-Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
-
-
-# Development Strategy
-
-For a refresher (or reference) before you begin writing code, we recommend reviewing the content from [JavaScript Testing](https://www.udacity.com/course/javascript-testing--ud549). Your project will be evaluated by a Udacity code reviewer according to the [Feed Reader Testing project rubric](https://review.udacity.com/#!/rubrics/18/view). Please review for detailed project requirements.
-
-1. Familiarize yourself with the starter code
     * Open up `index.html` and review the functionality of the application within your browser
     * What is all the code in `app.js` doing? Be sure to read all code comments
     * Check out `style.css`. How is styling applied to the application?
@@ -67,8 +61,3 @@ Additionally, note that:
  * Error handling should be implemented for undefined variables and out-of-bound array access
  * When complete, all of your tests should pass
 
-When you're all finished, write a `README` file detailing all steps required to successfully run the application. If you have added additional tests, provide documentation for what these future features are and what the tests are checking for.
-
-# Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
