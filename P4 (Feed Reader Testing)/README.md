@@ -13,7 +13,7 @@
 In this project you can find a web-based application that reads RSS feeds. 
 
 ## Running the Application
- In order to be able to run you have to open index.html in a browser. (Optionally you can save the game folder locally to your computer and then open the index.html file in a browser.)
+ In order to be able to run the application and view the test results, you have to open index.html in a browser. (Optionally you can save the folder locally to your computer and then open the index.html file in a browser.)
 
 ## Contributing
 
