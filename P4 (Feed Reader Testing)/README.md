@@ -1,23 +1,25 @@
+# Udacity Feed reader app testing with Jasmine
+
 ## Table of Contents
 
-- [Project Overview](#Project_Overview)
-- [Running the Application](#Running_the_Application)
+- [Project Overview](#project-overview)
+- [Running the Application](#running-the-application)
 - [Contributing](#contributing)
-- [Development Strategy](#Development_Strategy)
+- [Development Strategy](#development-strategy)
 
 
-# Project Overview
+## Project Overview
 
 In this project you can find a web-based application that reads RSS feeds. 
 
-# Running the Application
+## Running the Application
  In order to be able to run you have to open index.html in a browser. (Optionally you can save the game folder locally to your computer and then open the index.html file in a browser.)
 
-# Contributing
+## Contributing
 
 In order to access/alter/develop the test suite, navigate to jasmine/spec/feedreader.js and open with the text editor of your choice.
 
-# Development Strategy
+## Development Strategy
 (as given by Udacity)
 
     * Open up `index.html` and review the functionality of the application within your browser
