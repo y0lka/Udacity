@@ -13,12 +13,12 @@ You can find the original project code [here](https://github.com/udacity/mws-res
 ### Setting up a Live Server
 
 Start a simple HTTP server to serve the site files on your computer. 
-Download and install the latest version of Python from their [website] (https://www.python.org/).
+Download and install the latest version of Python from their [website](https://www.python.org/).
 Navigate to the project folder.
 Start the server using -m http.server 8000.
 Visit the site here: http://localhost:8000.
 
-There are many other options to view the site, but for live development and editing purposes I chose not to implement the Python server, but instead opted to use an extension available in Visual Studio Code [Live Server 5.6.1]. I used the 127.0.0.1:5500 port. This can easily be changed in the dbhelper.js file to whatever address and port your server lives on.
+There are many other options to view the site, but for live development and editing purposes I chose not to implement the Python server, but instead opted to use an extension available in Visual Studio Code (Live Server 5.6.1). I used the 127.0.0.1:5500 port. This can easily be changed in the dbhelper.js file to whatever address and port your server lives on.
 
 
 ### Leaflet.js and Mapbox:
