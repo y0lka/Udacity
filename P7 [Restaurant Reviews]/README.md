@@ -3,7 +3,7 @@
 
 ## Specification
 
-For the Restaurant Reviews projects, I was tasked to incrementally convert a static webpage to a mobile-ready web application.
+For the Restaurant Reviews projects, I converted a static webpage to a mobile-ready web application.
 To run the project, download or clone the repository on your computer and follow the instructions regarding the live server if you do not have one already set up.
 
 ### Project code
