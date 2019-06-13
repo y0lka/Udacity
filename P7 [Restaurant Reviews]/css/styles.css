@@ -176,6 +176,7 @@ nav h1 a {
 
 #restaurants-list li {
     padding: 10px;
+    margin: auto;
 }
 
 #restaurants-list .wrapper {

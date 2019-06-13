@@ -109,7 +109,6 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
  */
 fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => {
   const hours = document.getElementById('restaurant-hours');
-  hours.tabIndex = 0;
   for (let key in operatingHours) {
     const row = document.createElement('tr');
 
